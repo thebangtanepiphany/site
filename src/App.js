@@ -1,47 +1,18 @@
-import React, { useState } from "react";
+import React from "react";
 import spotify from "./img/spotify.png";
 import stitcher from "./img/stitcher.png";
 import apple from "./img/apple.svg";
-import twitter from "./img/twitter.svg"
-import twitterHover from "./img/twitter-hover.svg"
-import smicon from "./img/bangtan-icon-sm.png"
 import bangimg from "./img/bangtan-img.png"
 import em from "./img/emily.png"
 import rk from "./img/rocky.png"
+import Nav from "./components/Nav"
 import "./App.css";
 
 function App() {
-  const [social, setSocial] = useState(twitter);
   return (
     <div className="App">
       <header>
-        <nav className="navbar fixed-top">
-          <a className="navbar-brand" href="/">
-            <img className="" alt="The Bangtan Epiphany Podcast" src={smicon} />
-          </a>
-          <ul className="nav">
-          <li className="nav-item">
-              <a className="nav-link active" href="/">Home</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link active" href="#about-us">About us</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link active" href="#episodes">Episodes</a>
-            </li>
-          </ul>
-          <span className="nav-item">
-            <a href="https://www.twitter.com/btsepiphanypod" target="_blank" rel="noopener noreferrer">
-              <img 
-                className="social"
-                src={social}
-                alt="Twitter Icon"
-                onMouseEnter={() => setSocial(twitterHover)}
-                onMouseLeave={() => setSocial(twitter)}
-              />
-            </a>
-          </span>
-        </nav>
+        <Nav />
       </header>
       <section className="header container">
         <div className="spacer"></div>

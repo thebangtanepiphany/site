@@ -1,0 +1,29 @@
+.navbar {
+  background-color:#d0e6fb;
+}
+
+.nav-link {
+  padding: 0.2rem 1rem;
+  font-weight: bold;
+}
+
+.navbar-brand img {
+  height: 30px;
+  width: 30px;
+}
+
+.social {
+  display: block;
+  height: 30px;
+  width: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  header .navbar ul.nav {
+    display: none;
+  }
+  .podcast-badges {
+    flex-direction: column;
+    align-items: center;
+  }
+}
