@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(#f77599, #3d80c2);
+  font-size: 1.5rem;
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.navbar {
+  background-color:#d0e6fb;
+}
+
+.nav-link {
+  padding: 0.2rem 1rem;
+  font-weight: bold;
+}
+
+footer {
+  background-color: rgb(0, 0, 0);
+  box-sizing: border-box;
+  display: inline-flex;
+  font-size: 16px;
+  justify-content: space-between;
+  padding: 10px;
+  width: 100%;
+  color: white;
+}
+
+.spacer {
+  height: 100px;
+}
+
+.social {
+  display: block;
+  height: 30px;
+  width: 30px;
+}
+
+.navbar-brand img {
+  height: 30px;
+  width: 30px;
+}
+
+section {
+  width: 100%;
+}
+
+.podcast-badges {
+  display: flex;
+  justify-content: center;
+}
+.podcast-badges .badge {
+  display: inline-flex;
+  width: 165px;
+  height: 40px;
+}
+.podcast-badges .badge img{
+  width: 100%;
+}
+
+/* PERSONA #f77599 */
+/* SEVEN   #3d80c2 */
+
+.link {
+  color: #09d3ac;
+}
+
+h1 {
+  font-size: 5rem;
+  margin: 30px;
+}
+
+h1, h2, h3 {
+  margin-bottom: 30px !important;
+}
+
+@media only screen and (max-width: 600px) {
+  header .navbar ul.nav {
+    display: none;
+  }
+  .podcast-badges {
+    flex-direction: column;
+    align-items: center;
+  }
+}
