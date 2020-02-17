@@ -1,14 +1,9 @@
 import React from "react"
-import twitterImg from "../img/twitter.svg"
-import twitterImgHover from "../img/twitter-hover.svg"
+import TwitterIcon from "../img/twitter"
 import smicon from "../img/bangtan-icon-sm.png"
 import "./Nav.css"
 
 export default class Nav extends React.Component {
-  constructor(props) {
-    super(props)
-    this.state = { twitter: twitterImg }
-  }
   render() {
     return <nav className="navbar fixed-top">
       <a className="navbar-brand" href="/">
@@ -26,14 +21,8 @@ export default class Nav extends React.Component {
         </li>
       </ul>
       <span className="nav-item">
-        <a href="https://www.twitter.com/btsepiphanypod" target="_blank" rel="noopener noreferrer">
-          <img 
-            className="social"
-            src={ this.state.twitter }
-            alt="Twitter Icon"
-            onMouseEnter={() => this.setState({ twitter: twitterImgHover }) }
-            onMouseLeave={() => this.setState({ twitter: twitterImg }) }
-          />
+        <a className="social" href="https://www.twitter.com/btsepiphanypod" target="_blank" rel="noopener noreferrer">
+          <TwitterIcon/>
         </a>
       </span>
     </nav>

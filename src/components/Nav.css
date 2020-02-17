@@ -2,6 +2,13 @@
   background-color:#d0e6fb;
 }
 
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
 .nav-link {
   padding: 0.2rem 1rem;
   font-weight: bold;
@@ -16,6 +23,20 @@
   display: block;
   height: 30px;
   width: 30px;
+}
+
+#twitter-bg .st0 {
+  fill: #000000;
+}
+.social:hover #twitter-bg .st0 {
+  fill: #1DA1F2;
+}
+
+#twitter-logo .st1 {
+  fill: #d0e6fb;
+}
+.social:hover #twitter-logo .st1 {
+  fill: #FFFFFF;
 }
 
 @media only screen and (max-width: 600px) {

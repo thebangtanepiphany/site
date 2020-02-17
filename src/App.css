@@ -30,12 +30,13 @@ section {
 
 .podcast-badges {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 .podcast-badges .badge {
   display: inline-flex;
   width: 165px;
-  height: 40px;
+  height: 45px;
 }
 .podcast-badges .badge img{
   width: 100%;
