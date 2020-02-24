@@ -11,11 +11,11 @@ function App() {
       <header>
         <Nav />
       </header>
-      <section className="header container">
+      <section className="header">
         <div className="spacer"></div>
         <Title />
       </section>
-      <section className="about-us container" id="about-us">
+      <section className="about-us" id="about-us">
         <div className="spacer"></div>
         <h2>About Us</h2>
         <div className="card-deck">
@@ -33,10 +33,10 @@ function App() {
           </div>
         </div>
       </section>
-      <section className="podcast-episodes container" id="episodes">
+      <section className="podcast-episodes" id="episodes">
         <div className="spacer"></div>
         <h2>Episodes</h2>
-        <div className="container">
+        <div className="player">
           <div id="buzzsprout-large-player-814801"></div>
         </div>
       </section>

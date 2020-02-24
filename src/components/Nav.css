@@ -1,5 +1,11 @@
 .navbar {
   background-color:#d0e6fb;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: .5rem 1rem;
+  z-index: 10000;
 }
 
 .fixed-top {
@@ -14,9 +20,27 @@
   font-weight: bold;
 }
 
+.navbar-brand {
+  display: inline-block;
+  padding-top: .3125rem;
+  padding-bottom: .3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+
 .navbar-brand img {
   height: 30px;
   width: 30px;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
 }
 
 .social {
