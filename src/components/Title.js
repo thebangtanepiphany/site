@@ -9,9 +9,12 @@ import "./Title.css"
 export default class Title extends React.Component {
   render() {
     return (
-      <div>
-        <h1>The Bangtan Epiphany Podcast</h1>
-        <div className="card">
+      <div className="title-container">
+        <div className="title-backdrop">
+          <h1 className="title-text">The Bangtan Epiphany Podcast</h1>
+        </div>
+        
+{/*         <div className="card">
           <img src={bangimg} className="card-img-top" alt="The Bangtan Epiphany Podcast" />
           <div className="card-body">
             <h3 className="card-title">Falling into BTS</h3>
@@ -23,7 +26,7 @@ export default class Title extends React.Component {
               <a className="badge" href="https://www.iheart.com/podcast/269-the-bangtan-epiphany-podca-57080748/" target="_blank" rel="noopener noreferrer"><img src={iheartradio} alt="iHeartRadio"/></a>
             </div>            
           </div>
-        </div>
+        </div> */}
       </div>
     )
   }
