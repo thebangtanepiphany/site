@@ -1,10 +1,9 @@
 .navbar {
-  background-color:#d0e6fb;
+  background-color:rgb(18, 18, 18);
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding: .5rem 1rem;
   z-index: 10000;
 }
 
