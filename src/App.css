@@ -7,6 +7,7 @@
   background: linear-gradient(#f77599, #3d80c2);
   font-family: 'Alegreya Sans SC', sans-serif;
   margin: 0;
+  top: 0;
 }
 
 footer {
@@ -17,7 +18,7 @@ footer {
   justify-content: space-between;
   padding: 10px;
   width: 100%;
-  color: white;
+  color: #cbe2fa;
 }
 
 .spacer {
@@ -26,6 +27,7 @@ footer {
 
 section {
   width: 100%;
+  margin: 0;
 }
 
 .podcast-badges {
@@ -54,7 +56,7 @@ section {
   box-sizing: border-box;
 }
 a {
-  color: #007bff;
+  color: #cbe2fa;
   text-decoration: none;
   background-color: transparent;
 }

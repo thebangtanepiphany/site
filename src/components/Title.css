@@ -3,24 +3,41 @@
 }
 
 .title-backdrop {
-  background: url("../img/bts5.jpg") center;
+  background: url("../img/bts1.jpg") center;
+  margin: 0;
+  width: 100%;
+  top: 100px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
-  margin: auto;
+}
+
+.title-content {
+  margin: 0 auto; 
+}
+
+.window {
+  height: 300px;
+  background: none;
   width: 100%;
 }
 
-.title-text {
+.heading {
+  width: 100%;
+  margin: 0;
+  padding: 10% 5% 6% 5%;
   /* font and size */
   font-family: 'Rubik Mono One', sans-serif;
   font-weight: bolder;
-  font-size: 10vw; 
+  font-size: 9vw; 
   line-height: .9em;
-  /* position */
-  margin: 0 auto; /* Center the text container */
-  padding: 100px;
-  width: 100%;
   /* cutout effect */
-  background-color: rgb(70, 19, 128);
-  color: white;
-  mix-blend-mode: multiply;
+  background-color: #cbe2fa;
+  color: black;
+  mix-blend-mode: lighten;
+}
+
+.description {
+
 }

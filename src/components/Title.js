@@ -11,7 +11,10 @@ export default class Title extends React.Component {
     return (
       <div className="title-container">
         <div className="title-backdrop">
-          <h1 className="title-text">The Bangtan Epiphany Podcast</h1>
+          <div className="title-content">
+            <h1 className="heading">The Bangtan Epiphany Podcast</h1>
+            <div className="window"></div>
+          </div>
         </div>
         
 {/*         <div className="card">

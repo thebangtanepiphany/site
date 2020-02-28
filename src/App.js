@@ -12,7 +12,6 @@ function App() {
         <Nav />
       </header>
       <section className="header">
-        <div className="spacer"></div>
         <Title />
       </section>
       <section className="about-us" id="about-us">
