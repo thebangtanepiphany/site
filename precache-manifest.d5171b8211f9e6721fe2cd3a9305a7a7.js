@@ -1,35 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "605dbf322e3935ca4723505c541f46fe",
+    "revision": "66ae5dff5b65ae0fb1dbcff8abd40819",
     "url": "/site/index.html"
   },
   {
-    "revision": "b33fd3fd7dc53664da10",
-    "url": "/site/static/css/main.d377f9e5.chunk.css"
+    "revision": "a133dfb330a8216e1961",
+    "url": "/site/static/css/main.a18d347b.chunk.css"
   },
   {
-    "revision": "b6db625a3f32208837b7",
-    "url": "/site/static/js/2.f03b952e.chunk.js"
+    "revision": "ab02089a74348d7b1f6b",
+    "url": "/site/static/js/2.116244e2.chunk.js"
   },
   {
-    "revision": "99bd0487192ec9e7d9ee8fbbd91ee444",
-    "url": "/site/static/js/2.f03b952e.chunk.js.LICENSE.txt"
+    "revision": "928d7b5eb39d16fe9a880722c974b51e",
+    "url": "/site/static/js/2.116244e2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b33fd3fd7dc53664da10",
-    "url": "/site/static/js/main.1934e222.chunk.js"
+    "revision": "a133dfb330a8216e1961",
+    "url": "/site/static/js/main.a9cf389b.chunk.js"
   },
   {
     "revision": "bbc508913988e1348599",
     "url": "/site/static/js/runtime-main.d75ad92b.js"
   },
   {
-    "revision": "9ed13829b0534c072b57f456532ff433",
-    "url": "/site/static/media/apple.9ed13829.svg"
+    "revision": "73e9586637bc3c66a109a02ff0e941cc",
+    "url": "/site/static/media/apple.73e95866.svg"
   },
   {
     "revision": "1fbf319c3e730e7c6ccb1a42f011e538",
     "url": "/site/static/media/bangtan-img.1fbf319c.png"
+  },
+  {
+    "revision": "e803f2696ee92f2347fefc977e8b290e",
+    "url": "/site/static/media/bts1.e803f269.jpg"
   },
   {
     "revision": "d7d3468bcd3a6a2eeaf8c0e88326a666",
