@@ -10,14 +10,10 @@ export default class Home extends React.Component {
   render() {
     return (
       <div className="main-container">
-        <div className="title-scroll backdrop">
+        <div className="backdrop">
           <div className="scroll-content">
             <h1 className="title-heading">The Bangtan Epiphany Podcast</h1>
             <div className="window"></div>
-          </div>
-        </div>
-        <div className="podcast-scroll backdrop">
-          <div className="scroll-content">
             <div className="scroll-card">
               <p>Join married 30-somethings Rocky and Emily as we start to descend down the BTS rabbit hole, diving deep into the Bangtan Universe, exploring themes, culture, and stories created by this infectiously charming and surprisingly profound Korean idol group. We’ll review all the media and music, from debut till today, including their variety and reality shows, interviews, albums, mixtapes, social media, live shows, and MVs. We’re curious about culture, music, art, and storytelling and we’re opening our minds to the unexpectedly intense and endlessly delightful experience of being ARMY. </p>
               <div className="podcast-badges">
@@ -27,7 +23,6 @@ export default class Home extends React.Component {
                 <a className="badge" href="https://www.iheart.com/podcast/269-the-bangtan-epiphany-podca-57080748/" target="_blank" rel="noopener noreferrer"><img src={iheartradio} alt="iHeartRadio"/></a>
               </div> 
             </div>
-            <div className="window"></div>
           </div>
         </div>
       </div>

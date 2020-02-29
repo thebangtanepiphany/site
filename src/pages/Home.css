@@ -1,34 +1,32 @@
 .main-container {
-  position: relative;
+  background: linear-gradient(#000000, #9198e5);
+  margin: 0;
+  width: 100%;
 }
 
 .backdrop {
   margin: 0;
   width: 100%;
+  height: 1500px;
+  background: url("../img/bts1.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.title-scroll {
-  background: url("../img/bts1.jpg") center;
-  min-height: 500px;
-}
-
-.podcast-scroll {
-  background: url("../img/bts5.jpg") center;
-  min-height: 500px;
-}
-
 .scroll-content {
   margin: 0 auto; 
-  min-height: 400px;
+  height: 1000px;
 }
 
 .scroll-card {
-  margin: 2%;
-  padding: 20px;
+  margin: 0 10%;
+  padding: 5%;
+  background-color: #cbe2fa;
+  min-height: 350px;
+  font-size: 1.5rem;
+  border-radius: 5px;
 }
 
 .window {
@@ -59,6 +57,10 @@
 
 .podcast-badges .badge {
   display: inline-flex;
+}
+
+.podcast-badges .badge img {
   width: 165px;
   height: 40px;
+  padding: 0 10px;
 }

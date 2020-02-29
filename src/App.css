@@ -91,20 +91,6 @@ section {
   margin: 0;
 }
 
-.podcast-badges {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.podcast-badges .badge {
-  display: inline-flex;
-  width: 165px;
-  height: 45px;
-}
-.podcast-badges .badge img{
-  width: 100%;
-}
-
 /****** Mobile ******/
 
 @media only screen and (max-width: 600px) {
