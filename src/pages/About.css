@@ -33,3 +33,15 @@
   padding: 1.25rem;
   font-size: 1.5rem;
 }
+
+@media only screen and (max-width: 600px) {
+  .card-deck {
+    flex-direction: column;
+  }
+  .card {
+    margin-bottom: 10px;
+  }
+  .card-body {
+    font-size: 1.0rem;
+  }
+}

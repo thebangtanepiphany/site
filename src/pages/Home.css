@@ -52,15 +52,16 @@
 
 .podcast-badges {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
-
 .podcast-badges .badge {
   display: inline-flex;
-}
-
-.podcast-badges .badge img {
   width: 165px;
-  height: 40px;
+  height: 36px;
   padding: 0 10px;
+  margin: 10px 0;
+}
+.podcast-badges .badge img{
+  width: 100%;
 }
