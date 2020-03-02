@@ -1,5 +1,4 @@
 import React from "react"
-import bangimg from "../img/bangtan-img.png"
 import spotify from "../img/spotify.png"
 import stitcher from "../img/stitcher.png"
 import apple from "../img/apple.svg"

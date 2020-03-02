@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom"
 import Home from "./pages/Home"
 import About from "./pages/About"
 import Episodes from "./pages/Episodes"
+import Timeline from "./pages/Timeline"
 import TwitterIcon from "./img/twitter"
 import logo from "./img/bangtan-icon-sm.png"
 import "./App.css"
@@ -26,6 +27,9 @@ function App() {
               <li>
                 <Link className="nav-link" to="/episodes">Episodes</Link>
               </li>
+              <li>
+                <Link className="nav-link" to="/timeline">BTS Timeline</Link>
+              </li>
             </ul>
             <a className="nav-icon social" href="https://www.twitter.com/btsepiphanypod" target="_blank" rel="noopener noreferrer">
               <TwitterIcon/>
@@ -36,6 +40,7 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
         <Route path="/episodes" component={Episodes} />
+        <Route path="/timeline" component={Timeline} />
       </Switch>
       </div>
     </Router>
