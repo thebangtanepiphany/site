@@ -5,7 +5,7 @@ import "./EpisodeCard.css"
 export default class EpisodeCard extends React.Component {
   render() {
     return (
-      <div className="card">
+      <div className="episode-card">
         <div className="top">
           <div className="number">Ep. {this.props.number}</div>
           <h2 className="title">{this.props.title}</h2>
@@ -17,7 +17,7 @@ export default class EpisodeCard extends React.Component {
             this.props.links.map((link) => {
               return (
                 <div className="link">
-                  <p>{link.text}</p>
+                  <span>{link.text}</span>&nbsp;
                   <a href={link.url}>{link.title}</a>
                 </div>
               )
