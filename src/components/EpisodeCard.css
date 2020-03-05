@@ -1,0 +1,31 @@
+.episode-card {
+  margin: 10px 0;
+  border-radius: 5px;
+  padding: 10px;
+  background: rgba(255,255,255,.5);
+}
+
+.episode-card .top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.top div, .top h2 {
+  height: 20px;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.episode-card .middle {
+  padding: 10px 0;
+}
+
+h2.title {
+  margin: 0;
+}
+
+.episode-card a {
+  color: #3d80c2;
+}
