@@ -64,3 +64,8 @@
   height: 40px;
   padding: 0 10px;
 }
+
+.podcast-badges .badge.svg img {
+  padding: 0 5px;
+  box-sizing: content-box;
+}
