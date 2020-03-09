@@ -47,6 +47,7 @@
   display: flex;
   flex-wrap: wrap;
   margin: 0;
+  padding: 0;
   list-style: none;
 }
 
@@ -94,9 +95,7 @@ section {
 /****** Mobile ******/
 
 @media only screen and (max-width: 600px) {
-  header .nav ul.nav-links {
-    display: none;
-  }
+
 }
 
 /****** Reset ******/
