@@ -17,6 +17,7 @@ export default class Home extends React.Component {
             <div className="window"></div>
             <div className="scroll-card">
               <p>Join married 30-somethings Rocky and Emily as we start to descend down the BTS rabbit hole, diving deep into the Bangtan Universe, exploring themes, culture, and stories created by this infectiously charming and surprisingly profound Korean idol group. We’ll review all the media and music, from debut till today, including their variety and reality shows, interviews, albums, mixtapes, social media, live shows, and MVs. We’re curious about culture, music, art, and storytelling and we’re opening our minds to the unexpectedly intense and endlessly delightful experience of being ARMY. </p>
+              <h3>Listen, Subscribe, Comment, etc.</h3>
               <div className="podcast-badges">
                 <a className="badge" href="https://open.spotify.com/show/2wglhSf4DW5RHFCUD3dbx5" target="_blank" rel="noopener noreferrer"><img src={spotify} alt="Spotify"/></a>
                 <a className="badge" href="https://www.stitcher.com/podcast/the-bangtan-epiphany-podcast" target="_blank" rel="noopener noreferrer"><img src={stitcher} alt="Stitcher"/></a>
