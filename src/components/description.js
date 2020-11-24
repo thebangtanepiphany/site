@@ -3,10 +3,17 @@ import styles from './description.module.scss'
 
 export default function Description() {
   return (
-    <div className={styles.container}>
-      <p>Married couple, Rocky and Emily, love nerding out over BTS. We do song and MV analysis. Excessive fan-girling/fan-boying. <i>Why is there no gender neutral way to say fan-ing?</i></p>
-      <p>Sometimes we talk about how BTS <b>infires</b> us to be creative, have a blast, and not give up hope on humanity.</p>
-      <p>Othertimes we are just freaking the hell out. <i>Don't get Emily started on the choreo.</i></p>
+    <div className={styles.postit}>
+      <div className={styles.army}>
+        <div className={styles.l}></div>
+        <div className={styles.m}></div>
+        <div className={styles.r}></div>
+      </div>
+      <p className={styles.first}>Hi Army, it's Rocky and Emily! Do you love nerding out over BTS? Give us a listen! We do song/MV analysis, review the BTS shows and films and talk cultural context. </p>
+      <p>Excessive fan-girling/fan-boying. <i>Why is there no gender neutral way to say fan-ing?</i></p>
+      <p>Let's talk about how BTS <b>infires</b> us to be creative, have a blast, and not give up hope on humanity. We dive deep into meaning, feels and rampant adoration! <i>Don't get Emily started on the choreo.</i></p>
+      <p>New episodes every Monday morning!</p>
+      <div className={styles.heart}></div>
     </div>
   )
 }
