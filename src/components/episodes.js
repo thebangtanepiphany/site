@@ -43,20 +43,17 @@ export default class Episodes extends React.Component {
       return <div>Loading...</div>
     } else {
       return (
-        <div className={styles.container}>
+        <React.Fragment>
           {
             this.state.episodes.map( (episode, index) => {
-              console.log(episode)
-              if (index < 6) {
-                return <EpisodeCard
+              return <EpisodeCard
                 num={episode['itunes:episode']-1}
                 title={episode.title}
                 url={episode.guid}
               />
-              }
             })
           }
-        </div>
+        </React.Fragment>
       )
     }
   }

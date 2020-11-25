@@ -5,7 +5,7 @@ export default function EpisodeCard(props) {
   const { num, title, url } = props
   const deg = (Math.round(Math.random()) * 2 - 1)*(Math.ceil(Math.random()*5))
   const rotate = { transform: `rotate(${deg}deg)`}
-  const image = `/ep${num}.gif`
+  const image = num >= 39 ? `/ep${num}.gif` : 'apple-icon.png'
   return (
     <div
       style={rotate}

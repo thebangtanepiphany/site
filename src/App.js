@@ -2,16 +2,19 @@ import React from 'react'
 import styles from './app.module.scss'
 import Description from './components/description'
 import Episodes from './components/episodes'
+import Postcard from './components/postcard'
 
 function App() {
   const favicon = '/favicon-96x96.png'
   return (
-    <div className={styles.container}>
+    <div className={styles.header}>      
       <div className={styles.links}>
-      <img className={styles.logo} src={favicon} />
+        <img className={styles.logo} src={favicon} />
         <h1>The BTS Epiphany Podcast</h1>
+      </div>
+      <div className={styles.links}>
         <a className={styles.social} href="https://www.twitter.com/btsepiphanypod" target="_blank" rel="noopener noreferrer">
-          <svg x="0px" y="0px" viewBox="0 0 400 400" height="70px"><title>Twitter</title>
+          <svg x="0px" y="0px" viewBox="0 0 400 400" height="40px"><title>Twitter</title>
             <g id="twitter-logo"><path class="st1" d="M153.6,301.6c94.3,0,145.9-78.2,145.9-145.9c0-2.2,0-4.4-0.1-6.6c10-7.2,18.7-16.3,25.6-26.6
   c-9.2,4.1-19.1,6.8-29.5,8.1c10.6-6.3,18.7-16.4,22.6-28.4c-9.9,5.9-20.9,10.1-32.6,12.4c-9.4-10-22.7-16.2-37.4-16.2
   c-28.3,0-51.3,23-51.3,51.3c0,4,0.5,7.9,1.3,11.7c-42.6-2.1-80.4-22.6-105.7-53.6c-4.4,7.6-6.9,16.4-6.9,25.8
@@ -23,9 +26,15 @@ function App() {
         <a href="https://www.patreon.com/bePatron?u=29621109" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
       </div>
 
-      <Description />
+      <div className={styles.container}>
+        <Description />
 
-      <Episodes />
+        <Postcard />
+
+        <Episodes />
+      </div>
+
+
 
       <footer className={styles.footer}>
         &#169; The Bangtan Epiphany Podcast

@@ -1,15 +1,12 @@
-.container {
+$dark_purple:rgb(60, 7, 114);
+
+.header {
   min-height: 100vh;
   padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.title a {
-  color: #0070f3;
-  text-decoration: none;
 }
 
 .title a:hover,
@@ -98,6 +95,7 @@
   flex-direction: row;
   height: 40px;
   margin: 10px 0;
+  line-height: 40px;
 
   h1, a, img {
     margin:0 15px;
@@ -128,4 +126,9 @@
   height: 40px;
   width: 40px;
   margin: 0 10px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
 }
