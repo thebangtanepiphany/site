@@ -42,6 +42,7 @@ export default class Episodes extends React.Component {
     } else if (!isLoaded) {
       return <div>Loading...</div>
     } else {
+      console.log(this.state.episodes)
       return (
         <React.Fragment>
           {
@@ -50,6 +51,7 @@ export default class Episodes extends React.Component {
                 num={episode['itunes:episode']-1}
                 title={episode.title}
                 url={episode.guid}
+                desc={episode['itunes:summary']}
               />
             })
           }
