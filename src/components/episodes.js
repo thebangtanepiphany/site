@@ -35,6 +35,10 @@ export default class Episodes extends React.Component {
     )
   }
 
+  getNum(title) {
+    return title.substring(0, 3).replace(/\D/g,'')
+  }
+
   render() {
     const { error, isLoaded, episodes } = this.state
     if (error) {
@@ -47,7 +51,8 @@ export default class Episodes extends React.Component {
           {
             this.state.episodes.map( (episode, index) => {
               return <EpisodeCard
-                num={episode['itunes:episode']-1}
+                key={index}
+                num={this.getNum(episode.title)}
                 title={episode.title}
                 url={episode.guid}
               />

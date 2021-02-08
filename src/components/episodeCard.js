@@ -5,7 +5,8 @@ export default function EpisodeCard(props) {
   const { num, title, url } = props
   const deg = (Math.round(Math.random()) * 2 - 1)*(Math.ceil(Math.random()*5))
   const rotate = { transform: `rotate(${deg}deg)`}
-  const image = num >= 39 ? `/ep${num}.gif` : 'apple-icon.png'
+  const image = missingGifs.includes(parseInt(num, 10)) ? 'apple-icon.png' : `/ep${num}.gif`
+
   return (
     <div
       style={rotate}
@@ -29,3 +30,5 @@ export default function EpisodeCard(props) {
     </div>
   )
 }
+
+const missingGifs = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28]
