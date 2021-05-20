@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './episode.module.scss'
+//import styles from './episode.module.scss'
 import EpisodeCard from './episodeCard'
 import xmlToJson from './utility'
 
@@ -45,11 +45,10 @@ export default class Episodes extends React.Component {
       return (
         <React.Fragment>
           {
-            this.state.episodes.map( (episode, index) => {
+            episodes.map( (episode) => {
               return <EpisodeCard
                 num={episode['itunes:episode']-1}
                 title={episode.title}
-                url={episode.guid}
               />
             })
           }

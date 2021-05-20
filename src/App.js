@@ -9,7 +9,7 @@ function App() {
   return (
     <div className={styles.header}>      
       <div className={styles.links}>
-        <img className={styles.logo} src={favicon} />
+        <img className={styles.logo} src={favicon} alt="Bangtan Epiphany" />
         <h1>The BTS Epiphany Podcast</h1>
       </div>
       <div className={styles.links}>
@@ -30,7 +30,8 @@ function App() {
         <Description />
 
         <Postcard />
-
+      </div>
+      <div className={styles.container}>
         <Episodes />
       </div>
 
