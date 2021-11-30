@@ -214,8 +214,7 @@ const Certificate = () => {
 export function NNFT() {
   return(
     <Section title="Not a NFT photocard" id="NNFT">
-      <Description>Want the thrill and excitement of owning an NFT with none of the cost? Just enter your name below 
-        and an official certificate of imaginary ownership will be issued!
+      <Description>Not and NFT but still a digital photocard!
       </Description>
       <Photocard>
         <Overlay />
@@ -239,7 +238,6 @@ export function NNFT() {
         </Twinkle>
         <Photo src="/jimin.jpg" alt="Jimin in PTD live" />
       </Photocard>
-      <Certificate />
     </Section>
   )
 }
